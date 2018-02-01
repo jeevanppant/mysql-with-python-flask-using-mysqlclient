@@ -26,7 +26,7 @@ c, con = connection()
 # default routing provies reference to all routes
 @app.route("/")
 def hello():
-	return 'Please follow links to make use of Mongo Database: <br>' \
+	return 'Please follow links to make use of MySQL Database: <br>' \
 		'1. /get/ - get all users <br>' \
 		'3. /username/ - get particular user <br>' \
 		'2. /delete/username/ - delete user with username <br>' \
